@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h3>
+    Patient Tracking System
+  </h3>
+</div>
+<!--<h1>Login</h1>
+ <div class="form-group">
+    <b><label for="name">Name</label></b>
+        <b><input type="text" #fnameRef=ngModel minlength="3" maxlength="24" class="form-control" name="name" [(ngModel)]="name" required></b>
+        <div *ngIf="fnameRef.errors && (fnameRef.dirty||fnameRef.touched)" class="alert alert-danger">
+          <div [hidden]="!fnameRef.errors.required">
+              Please Enter Name
+          </div>
+          <div [hidden]="!fnameRef.errors.minlength">
+              Enter atleast 3 characters
+          </div>
+          <div [hidden]="!fnameRef.errors.maxlength">
+              Please do not exceed 24 characters
+          </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+    <b><label for="name">Password</label></b>
+        <b><input type="password" #lnameRef=ngModel minlength="3" maxlength="24" class="form-control" name="password" [(ngModel)]="password" required></b>
+        <div *ngIf="lnameRef.errors && (lnameRef.dirty||lnameRef.touched)" class="alert alert-danger">
+          <div [hidden]="!lnameRef.errors.required">
+              Please Enter Password
+          </div>
+          <div [hidden]="!lnameRef.errors.minlength">
+              Enter atleast 3 characters
+          </div>
+          <div [hidden]="!lnameRef.errors.maxlength">
+              Please do not exceed 24 characters
+          </div>
+        </div>
+    </div>
+ <button type="button" class="btn btn-success" (click)="loginPatient()" >Login</button>-->
+
+<router-outlet></router-outlet>
